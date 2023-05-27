@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+  height: auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+  transition: all 0.5s ease;
+}
+.navbar .titulo {
+  color: black;
+}
+
+.navbar.sticky {
+  background: #1b1b1b;
+  /* padding: 15px 50px; */
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+.navbar.sticky .titulo {
+  color: rgb(255, 255, 255);
+}
+
+.carrusel-header {
+  height: auto;
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 400px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  color: aqua;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar {
+    background-color: rgba(236, 223, 223, 0.5); /* Cambia los valores RGBA según el color de fondo y la opacidad deseada */
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+  }
+}/*# sourceMappingURL=styles.css.map */
+
+/*-..-----------------------------------------------------------------------------------------*/
+
